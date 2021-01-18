@@ -1,6 +1,7 @@
 package main
 
 import (
+	s "HelloWorld/slices"
 	"fmt"
 )
 
@@ -10,5 +11,5 @@ func init() {
 
 func main() {
 	fmt.Println("Hello World")
-	slices.appendToSlices("test")
+	s.AppendToSlices("test")
 }
